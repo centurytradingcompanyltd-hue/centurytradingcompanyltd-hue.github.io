@@ -410,6 +410,12 @@
         })();
     </script>
     <!-- /GetButton.io widget -->
+    <script>
+    // Disable the old contact form script and let Web3Forms handle it natively
+    $(document).ready(function () {
+        $('#contactForm').off('submit');
+    });
+</script>
 
 
 
